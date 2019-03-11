@@ -1,0 +1,67 @@
+/* line 5, /Users/y/work/tnk/source/css/u_l.sass */
+body {
+  -webkit-user-select: none;
+  font-family: "Droid Sans", sans-serif;
+  background: #222;
+  color: #999;
+  padding-bottom: 200px; }
+
+/* line 12, /Users/y/work/tnk/source/css/u_l.sass */
+h1 {
+  font-family: "Droid Sans", sans-serif;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  font-size: 60px;
+  color: #999;
+  text-align: center; }
+
+/* line 20, /Users/y/work/tnk/source/css/u_l.sass */
+#wrap {
+  width: 90%;
+  margin: 0 auto; }
+
+/* line 24, /Users/y/work/tnk/source/css/u_l.sass */
+.input {
+  margin-bottom: 20px; }
+
+/* line 27, /Users/y/work/tnk/source/css/u_l.sass */
+textarea {
+  width: 100%;
+  height: 500px;
+  background: #151515;
+  border: 1px solid #333;
+  padding: 10px;
+  line-height: 150%;
+  font-size: 16px;
+  color: #999;
+  display: block;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  resize: none; }
+
+/* line 41, /Users/y/work/tnk/source/css/u_l.sass */
+#textarea {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto; }
+
+/* line 46, /Users/y/work/tnk/source/css/u_l.sass */
+button {
+  width: 200px;
+  height: 50px;
+  background: #333;
+  border: none;
+  font-size: 16px;
+  color: #999;
+  cursor: pointer;
+  margin-bottom: 20px; }
+
+/* line 57, /Users/y/work/tnk/source/css/u_l.sass */
+#before {
+  width: 45%;
+  float: left; }
+
+/* line 60, /Users/y/work/tnk/source/css/u_l.sass */
+#after {
+  width: 45%;
+  float: right; }

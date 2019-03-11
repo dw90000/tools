@@ -1,0 +1,98 @@
+/* line 1, /Users/y/work/tnk/source/css/normalize.css.sass */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, dialog, figure, footer, header,
+hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-color: transparent; }
+
+/* line 20, /Users/y/work/tnk/source/css/normalize.css.sass */
+body {
+  line-height: 1; }
+
+/* line 23, /Users/y/work/tnk/source/css/normalize.css.sass */
+article, aside, dialog, figure, footer, header,
+hgroup, nav, section {
+  display: block; }
+
+/* line 27, /Users/y/work/tnk/source/css/normalize.css.sass */
+ul {
+  list-style: none; }
+
+/* line 30, /Users/y/work/tnk/source/css/normalize.css.sass */
+blockquote, q {
+  quotes: none; }
+
+/* line 33, /Users/y/work/tnk/source/css/normalize.css.sass */
+blockquote:before,
+blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* line 39, /Users/y/work/tnk/source/css/normalize.css.sass */
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* line 47, /Users/y/work/tnk/source/css/normalize.css.sass */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* line 52, /Users/y/work/tnk/source/css/normalize.css.sass */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* line 58, /Users/y/work/tnk/source/css/normalize.css.sass */
+del {
+  text-decoration: line-through; }
+
+/* line 61, /Users/y/work/tnk/source/css/normalize.css.sass */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+/* line 65, /Users/y/work/tnk/source/css/normalize.css.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 69, /Users/y/work/tnk/source/css/normalize.css.sass */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* line 77, /Users/y/work/tnk/source/css/normalize.css.sass */
+input, select, button, textarea {
+  vertical-align: middle;
+  outline: 0; }
+
+/* line 80, /Users/y/work/tnk/source/css/normalize.css.sass */
+img {
+  vertical-align: bottom; }

@@ -1,0 +1,17 @@
+/* line 1, /Users/y/work/tnk/source/css/any/1.css.sass */
+body {
+  padding: 100px; }
+
+/* line 4, /Users/y/work/tnk/source/css/any/1.css.sass */
+p {
+  font-size: 12px;
+  line-height: 16px; }
+  /* line 7, /Users/y/work/tnk/source/css/any/1.css.sass */
+  p span {
+    -webkit-transition: all 0.5s linear;
+    opacity: 0;
+    letter-spacing: 0.1em; }
+    /* line 11, /Users/y/work/tnk/source/css/any/1.css.sass */
+    p span.show {
+      opacity: 1;
+      letter-spacing: 0; }

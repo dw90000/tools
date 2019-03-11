@@ -1,0 +1,18 @@
+/* line 1, /Users/y/work/tnk/source/css/ball.css.sass */
+body {
+  background: #fff; }
+  /* line 3, /Users/y/work/tnk/source/css/ball.css.sass */
+  body #circle {
+    height: 400px;
+    position: relative;
+    top: 30px;
+    margin: 0 auto; }
+    /* line 9, /Users/y/work/tnk/source/css/ball.css.sass */
+    body #circle .ball {
+      width: 30px;
+      height: 30px;
+      background: #000;
+      position: absolute;
+      border-radius: 50%;
+      top: 0;
+      left: 0; }
