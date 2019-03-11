@@ -1,21 +1,39 @@
 <template>
-<div class="container">
+<div class="">
   <h1>
     &lt;p&gt;tag maker
   </h1>
   <div class="columns">
-    <div class="column" id="before">
-      <textarea></textarea>
+    <div class="column">
+      <textarea v-model="before"></textarea>
     </div>
-    <div class="column" id="after">
-      <textarea disabled="disabled"></textarea>
+    <div class="column">
+      <textarea v-model="after"></textarea>
     </div>
   </div>
 </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data: function() {
+    return {
+      before: '',
+      after: ''
+    };
+  },
+  methods: {},
+  watch: {
+    before: function(_text) {
+      let textareaCode = _text;
+      textareaCode = textareaCode.replace(/\n/g, '</p>\n<p>');
+      textareaCode = textareaCode.replace(/^/g, '<p>');
+      textareaCode = textareaCode.replace(/$/g, '</p>');
+      textareaCode = textareaCode.replace(/<p><\/p>/g, '');
+      this.after = textareaCode;
+    }
+  },
+}
 
 
 //

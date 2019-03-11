@@ -1,7 +1,15 @@
 <template>
-  <div>
+<main class="columns">
+  <div class="submenu column is-3">
+    <aside>
+      tools
+
+    </aside>
+  </div>
+  <div class="column">
     <nuxt />
   </div>
+</main>
 </template>
 
 <style>
